@@ -1,7 +1,7 @@
-package sqldodemonio;
+package sql;
 
 import java.sql.*;
-import static sqldodemonio.Conexao.open;
+import static sql.Conexao.open;
 
 public class DAO {
     public static String instrucao_select = "SELECT * FROM new_table;";
